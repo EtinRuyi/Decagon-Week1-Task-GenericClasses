@@ -1,0 +1,14 @@
+C:\Users\omoru\OneDrive\Desktop\Week1TaskGenericClasses\bin\Debug\Week1TaskGenericClasses.exe.config
+C:\Users\omoru\OneDrive\Desktop\Week1TaskGenericClasses\bin\Debug\Week1TaskGenericClasses.exe
+C:\Users\omoru\OneDrive\Desktop\Week1TaskGenericClasses\bin\Debug\Week1TaskGenericClasses.pdb
+C:\Users\omoru\OneDrive\Desktop\Week1TaskGenericClasses\obj\Debug\Week1TaskGenericClasses.csproj.AssemblyReference.cache
+C:\Users\omoru\OneDrive\Desktop\Week1TaskGenericClasses\obj\Debug\Week1TaskGenericClasses.csproj.CoreCompileInputs.cache
+C:\Users\omoru\OneDrive\Desktop\Week1TaskGenericClasses\obj\Debug\Week1TaskGenericClasses.exe
+C:\Users\omoru\OneDrive\Desktop\Week1TaskGenericClasses\obj\Debug\Week1TaskGenericClasses.pdb
+C:\Users\omoru\Desktop\week-1-task-EtinRuyi\bin\Debug\Week1TaskGenericClasses.exe.config
+C:\Users\omoru\Desktop\week-1-task-EtinRuyi\bin\Debug\Week1TaskGenericClasses.exe
+C:\Users\omoru\Desktop\week-1-task-EtinRuyi\bin\Debug\Week1TaskGenericClasses.pdb
+C:\Users\omoru\Desktop\week-1-task-EtinRuyi\obj\Debug\Week1TaskGenericClasses.csproj.AssemblyReference.cache
+C:\Users\omoru\Desktop\week-1-task-EtinRuyi\obj\Debug\Week1TaskGenericClasses.csproj.CoreCompileInputs.cache
+C:\Users\omoru\Desktop\week-1-task-EtinRuyi\obj\Debug\Week1TaskGenericClasses.exe
+C:\Users\omoru\Desktop\week-1-task-EtinRuyi\obj\Debug\Week1TaskGenericClasses.pdb
