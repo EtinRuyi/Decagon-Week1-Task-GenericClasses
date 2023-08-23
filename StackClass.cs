@@ -8,11 +8,11 @@ namespace Week1TaskGenericClasses
 {
     public class StackClass<T>
     {
-        private List<T> items;
+        private SinglyLinkedListClass<T> items;
 
         public StackClass()
         {
-            items = new List<T>();
+            items = new SinglyLinkedListClass<T>();
         }
 
         public bool IsEmptyStack()

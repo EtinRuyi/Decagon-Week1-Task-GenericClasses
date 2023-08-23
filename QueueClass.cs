@@ -8,11 +8,11 @@ namespace Week1TaskGenericClasses
 {
     public class QueueClass<T>
     {
-        private LinkedList<T> items;
+        private SinglyLinkedListClass<T> items;
 
         public QueueClass()
         {
-            items = new LinkedList<T>();
+            items = new SinglyLinkedListClass<T>();
         }
 
         public bool IsEmpty()
