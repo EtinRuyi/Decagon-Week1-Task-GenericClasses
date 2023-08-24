@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Week1TaskGenericClasses
 {
-    internal class SinglyLinkedListClass<T>
+    public class SinglyLinkedListClass<T>
     {
     
-        private class Node
+        public class Node
         {
             public T Data { get; set; }
             public Node Next { get; set; }
@@ -21,8 +21,8 @@ namespace Week1TaskGenericClasses
             }
         }
 
-        private Node head;
-        private int size;
+        public Node head;
+        public int size;
 
         public int Size => size;
 

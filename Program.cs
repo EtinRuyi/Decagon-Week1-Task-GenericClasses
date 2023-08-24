@@ -13,7 +13,7 @@ namespace Week1TaskGenericClasses
             //LinkedList
             SinglyLinkedListClass<int> linkedList = new SinglyLinkedListClass<int>();
             Console.WriteLine("LINKED LIST CLASS");
-            Console.WriteLine("New item added, the size of the class is: \n" + linkedList.Add(10));
+            Console.WriteLine("New item added, the size of the class is: " + linkedList.Add(10));
             Console.WriteLine("Second item added, the current size if the the class is: \n" + linkedList.Add(20));
             Console.WriteLine("Last item added, the new class size is: \n" + linkedList.Add(30));
 

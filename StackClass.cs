@@ -8,21 +8,21 @@ namespace Week1TaskGenericClasses
 {
     public class StackClass<T>
     {
-        private SinglyLinkedListClass<T> items;
+        private SinglyLinkedListClass<T> storage;
 
         public StackClass()
         {
-            items = new SinglyLinkedListClass<T>();
+            storage = new SinglyLinkedListClass<T>();
         }
 
         public bool IsEmptyStack()
         {
-            return items.Count == 0;
+            return storage.Size == 0;
         }
 
         public void Push(T item)
         {
-            items.Add(item);
+            storage.Add(item);
         }
 
         public T Pop()
@@ -32,9 +32,8 @@ namespace Week1TaskGenericClasses
                 throw new InvalidOperationException("Stack is empty.");
             }
 
-            int lastIndex = items.Count - 1;
-            T lastItem = items[lastIndex];
-            items.RemoveAt(lastIndex);
+            T lastItem = storage.head.Data;
+            storage.Remove(lastItem);
             return lastItem;
         }
 
@@ -45,12 +44,12 @@ namespace Week1TaskGenericClasses
                 throw new InvalidOperationException("Stack is empty.");
             }
 
-            return items[items.Count - 1];
+            return storage.head.Data;
         }
 
         public int Size()
         {
-            return items.Count;
+            return storage.Size;
         }
     }
 

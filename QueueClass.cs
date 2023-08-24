@@ -6,23 +6,24 @@ using System.Threading.Tasks;
 
 namespace Week1TaskGenericClasses
 {
+    
     public class QueueClass<T>
     {
-        private SinglyLinkedListClass<T> items;
+        private SinglyLinkedListClass<T> storage;
 
         public QueueClass()
         {
-            items = new SinglyLinkedListClass<T>();
+            storage = new SinglyLinkedListClass<T>();
         }
 
         public bool IsEmpty()
         {
-            return items.Count == 0;
+            return storage.Size == 0;
         }
 
         public void Enqueue(T item)
         {
-            items.AddLast(item);
+            storage.Add(item);
         }
 
         public T Dequeue()
@@ -32,14 +33,14 @@ namespace Week1TaskGenericClasses
                 throw new InvalidOperationException("Queue is empty.");
             }
 
-            T firstItem = items.First.Value;
-            items.RemoveFirst();
+            T firstItem = storage.head.Data;
+            storage.Remove(firstItem);
             return firstItem;
         }
 
         public int Size()
         {
-            return items.Count;
+            return storage.Size;
         }
     }
 
